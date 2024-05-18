@@ -12,11 +12,9 @@
 # Разбор кода
 Код представляет собой набор методов для работы с массивами строк:
 
-``` EnterStringsToArray: Этот метод позволяет пользователю ввести определенное количество строк через консоль и сохранить их в массиве.
-
-``` CreatingArrayStringsLessThan3: Этот метод принимает массив строк и создает новый массив, содержащий только те строки, длина которых меньше или равна 3 символам.
-
-``` PrintArray: Этот метод принимает массив строк и возвращает его строковое представление.
+> EnterStringsToArray: Этот метод позволяет пользователю ввести определенное количество строк через консоль и сохранить их в массиве.
+> CreatingArrayStringsLessThan3: Этот метод принимает массив строк и создает новый массив, содержащий только те строки, длина которых меньше или равна 3 символам.
+> PrintArray: Этот метод принимает массив строк и возвращает его строковое представление.
 
 # Как использовать
 1. Вызовите метод EnterStringsToArray, чтобы ввести строки через консоль и сохранить их в массиве. Вызовите метод
@@ -25,9 +23,10 @@
 
 Пример использования кода:
 
-``` string[] workArray = EnterStringsToArray();
-``` string[] result = CreatingArrayStringsLessThan3(workArray);
-``` string firstArray = PrintArray(workArray);
-``` string secondArray = PrintArray(result);
 ``` 
-``` Console.WriteLine(firstArray + " -> " + secondArray);
+string[] workArray = EnterStringsToArray();
+string[] result = CreatingArrayStringsLessThan3(workArray);
+string firstArray = PrintArray(workArray);
+string secondArray = PrintArray(result);
+Console.WriteLine(firstArray + " -> " + secondArray);
+``` 
